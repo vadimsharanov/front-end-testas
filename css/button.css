@@ -1,5 +1,27 @@
+.button {
+    flex-direction: row;
+    padding-top: 35px;
+}
+
 .login {
+    float: left;
+    background-color: blue;
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+    margin-right:8px;
 }
 
 .sign {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    width: 110px;
+    margin-left:8px;
+    height:45px;
+    font-size: 16px;
+    border: solid blue 1px;
+    color:blue;
+    line-height: 47px
 }
