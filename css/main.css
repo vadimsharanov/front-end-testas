@@ -7,67 +7,96 @@ body * {
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-body { 
+body {
+    background-color: #F6F7FF;
+  
 
 }
 
-main { 
-    display: inline-block;
-    width: 1200px;
+.b ackground {
+    height: 100vh;
+    background-image: url(../img/Pramogu-parkas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+  }
+
+main {
+    width: 900px;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 .left-column {
     width: 40%;
     float: left;
-    background-color: pink;
-    padding: 40px;
-    position: absolute;
+    background-color: #FFFFFF
 }
 
 .fcuksense { 
-    text-align: center;
-    position: absolute;
-    top: 0;
-    
-
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 30px;
+    color:#3852FF;
 }
 
 .black-text {
-padding-top: 50px;
+    display: inline-block;
+    margin-top: 90px;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #233052;
  
 }
 
 .grey-text {
-    display: inline-block;
-    padding-top: 15px;
+    margin-top: 20px;
+    color: #8A8C99;
+
+}
+
+.grey-text > span {
+    text-transform:capitalize;
+
 }
 
 .bottom-links {
-    display: inline-block;
-    margin-top: 50px;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 15px;
+
+
 }
 
 .alternative {
-    display: inline-block;
-    padding-right: 20px;
+    color: #7F8CA1;
+
+
 }
 
 .bottom-links > a {
-    padding-right: 20px;
-    display: inline-block;
+    text-decoration: none;
+    color: #3752F8;
+    
 }
 
 
 
 .right-column { 
-
     float: right;
-    width: 60%;
-    background-color: yellow;
-
+    width: 55%;
+    background-color: red;
 }
-    
+
+img {
+    width: 140%;
+    height: 1
+}
 
 
 
