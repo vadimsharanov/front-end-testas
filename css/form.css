@@ -1,0 +1,63 @@
+.form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.form-row { 
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #DEE1E7;
+    padding-left: 5px;
+    line-height: 40px;
+}
+
+.form-row > label {
+    background-color: white;
+    border: none;
+}
+
+.form-row  > input {
+    border: none;
+    line-height: 20px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.form-row > input::placeholder {
+    color: #3852FF;
+    font-size: 20px;
+    border: none;
+}
+.form-row:hover{
+    box-shadow: -3px 0px 0px 0px #3751FF;
+}
+
+.form-links {
+    margin-top:40px;
+    font-size: 14px
+}
+
+.remember { 
+    float: left;
+    text-decoration: none;
+    color: #A1A3B0;
+
+}
+
+.forget { 
+    float: right;
+    text-decoration: none;
+    color: #A1A3B0;
+}
+
+.form-row.flex-row > a {
+}
+
+
+
+

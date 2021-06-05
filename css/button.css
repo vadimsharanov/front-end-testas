@@ -1,0 +1,43 @@
+.button {
+    flex-direction: row;
+    padding-top: 60px;
+}
+
+.login {
+    float: left;
+    background-color: #3751FF;
+    width: 119px;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+    margin-right:8px;
+    color: #FBFEFF;
+    border-radius: 3px;
+    border: none;
+
+}
+
+
+.sign {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    width: 110px;
+    margin-left:8px;
+    height:45px;
+    font-size: 16px;
+    border: solid #4A58B3 1px;
+    color:blue;
+    line-height: 47px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.sign:hover {
+    text-decoration: underline;
+    box-shadow: 0 4px 8px 0 #0008;
+}
+
+.login:hover {
+    box-shadow: 0 4px 8px 0 #0008;
+}
