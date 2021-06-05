@@ -22,12 +22,19 @@
 }
 
 .form-row  > input {
-    border: none
+    border: none;
+    line-height: 20px;
+    font-size: 20px;
+    height: 30px;
 }
 
 .form-row > input::placeholder {
     color: #3852FF;
-    font-size: 17px;
+    font-size: 20px;
+    border: none;
+}
+.form-row:hover{
+    box-shadow: -3px 0px 0px 0px #3751FF;
 }
 
 .form-links {

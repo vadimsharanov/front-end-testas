@@ -9,28 +9,18 @@ body * {
 
 body {
     background-color: #F6F7FF;
-  
-
+    background: linear-gradient(171deg, #FEFEFE 0%, #F6F7FF 100%);
 }
-
-.b ackground {
-    height: 100vh;
-    background-image: url(../img/Pramogu-parkas.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: blur(1px);
-  }
 
 main {
     width: 900px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 46%;
+    left: 52%;
     transform: translate(-50%, -50%);
 }
 .left-column {
-    width: 40%;
+    width: 50%;
     float: left;
     background-color: #FFFFFF
 }
@@ -45,7 +35,7 @@ main {
 .black-text {
     display: inline-block;
     margin-top: 90px;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 40px;
     text-transform: capitalize;
     color: #233052;
@@ -89,13 +79,15 @@ main {
 
 .right-column { 
     float: right;
-    width: 55%;
+    width: 50%;
     background-color: red;
+
 }
 
 img {
-    width: 140%;
-    height: 1
+    width: 150%;
+
+
 }
 
 
